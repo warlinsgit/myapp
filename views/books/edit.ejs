@@ -3,10 +3,10 @@
 <form action="/books/<%= book.id %>?_method=PUT" method="post">
 
   <%-  include('_form_fieldss') %>
+<div class="form-row form-row-end btn-row">
+  <a class="bnt btn-danger" href="/books">Cancel</a>
 
-  <a href="/books">Cancel</a>
+  <button class="bnt btn-primary" type="submit" >Update</button>
 
-  <button type="submit" >Update</button>
-
-
+</div>
 </form>
